@@ -178,18 +178,20 @@ footer{
 
 footer img{
     position: absolute;
-    right: 1rem;
-    height: 1.25rem;
-    width: 4rem;
+    right: 0.3rem;
+    height: 1rem;
+    width: 3.5rem;
 
 }
 
 footer h3{
+    text-align: center;
     background-color:#00669F;
     color: #FFF9F9;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     font-style: normal;
     font-weight: 400;
+    
 }
 
 @media (min-width: 790px){
@@ -205,6 +207,22 @@ footer h3{
         align-items: center;
         padding: 0%;
         
+    }
+    footer h3{
+        text-align: center;
+        background-color:#00669F;
+        color: #FFF9F9;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        
+    }
+    footer img{
+        position: absolute;
+        right: 1rem;
+        height: 1.25rem;
+        width: 4rem;
+    
     }
     .bx{
         left: 93%
